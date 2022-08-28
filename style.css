@@ -98,7 +98,7 @@ h3 {
 .car {
     width: 120px;
     height: 120px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -122,4 +122,67 @@ info-title {
     margin-top: 5px;
     text-align: justify;
     text-align-last: center;
+}
+
+.middle-down {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 25px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.author {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.bottom {
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-action h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* padding: 0; */
+    
+}
+
+.text-action p {
+    color: #E5E7EB;
+    margin-top: 2px;
+    /* padding: 0; */
+}
+
+.bottom button {
+    border: 2px solid white;
+}
+
+.bottom-bar {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
 }
